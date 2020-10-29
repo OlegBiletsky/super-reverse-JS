@@ -1,5 +1,4 @@
 function superReverse (str1) {
-    console.log(str1);
     let arr1 = str1.split(" ");
     let temp = [];
     for (let i = 0; i < arr1.length; i++) {
@@ -9,17 +8,13 @@ function superReverse (str1) {
         temp.push(str2);
     }
     let result = temp.join(" ");
-    console.log(result);
 return result;
 }
 
 
 let input = document.getElementById('input');
-
 let result = document.getElementById('result');
-
 let btn = document.getElementById('btn');
-
 btn.onclick = ok;
 
 function ok() {
